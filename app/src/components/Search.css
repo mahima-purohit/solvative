@@ -1,0 +1,35 @@
+/* SearchBar.css */
+.search-bar {
+  position: relative;
+  width: 241px;
+  height: 38px;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.search-bar input {
+  width: calc(100% - 40px);
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.search-bar.disabled {
+  background-color: rgb(233, 236, 239);
+}
+
+.table-controls {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 2px;
+  height: 24px;
+  padding: 0 4px;
+}

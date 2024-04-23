@@ -1,0 +1,10 @@
+/* footerPagination.css */
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin-top: 20px;
+}
